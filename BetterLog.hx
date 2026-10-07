@@ -43,7 +43,7 @@ class BetterLog
 	 */
 	public static var LOG_FILE_PATH = "BetterLog_logs.txt"
 	/**
-	 * determines whether the log will be added to the `LOG_FILE_PATH` file; if true, the `addLogToFile` function will be cancelled
+	 * determines whether the log will be added to the `LOG_FILE_PATH` file; if false, the `addLogToFile` function will be cancelled
 	 */
 	public static var ADD_LOG_TO_FILE:Bool = true;
 
